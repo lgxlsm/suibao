@@ -1,0 +1,11 @@
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Ioc\bin\Debug\SuiBao_v1.Ioc.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Ioc\bin\Debug\SuiBao_v1.Ioc.pdb
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Ioc\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Ioc\bin\Debug\Newtonsoft.Json.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Ioc\bin\Debug\Ninject.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Ioc\bin\Debug\WebActivatorEx.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Ioc\bin\Debug\Newtonsoft.Json.xml
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Ioc\bin\Debug\Ninject.xml
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Ioc\obj\Debug\SuiBao_v1.Ioc.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Ioc\obj\Debug\SuiBao_v1.Ioc.pdb
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Ioc\obj\Debug\SuiBao_v1.Ioc.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6800 @@
+
+[2017-02-06 11:32:06,973] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:06,990] wolflogInfo 
+
+
+
+[2017-02-06 11:32:06,995] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,009] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,015] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,037] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,040] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,042] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,043] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,054] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,054] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,055] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,057] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,059] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,060] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,062] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,063] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,064] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,065] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,086] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,088] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,089] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,090] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,091] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,094] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,094] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,098] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,099] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,099] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,101] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,103] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,105] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,105] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,106] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,109] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,111] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,111] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,112] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,112] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,113] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,114] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,115] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,116] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,117] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,117] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,117] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,118] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,118] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,118] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,118] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,119] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,119] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,119] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,120] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,121] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,121] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,122] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,123] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,123] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,124] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,124] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,124] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,125] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,125] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,125] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,125] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,126] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,126] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,127] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,129] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,129] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,130] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,130] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,130] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,153] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,154] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,155] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,156] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,156] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,156] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,157] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,157] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,157] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,157] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,158] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,158] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,159] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,161] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,162] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,162] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,164] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,164] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,165] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,166] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,166] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,167] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,168] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,168] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,169] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,169] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,170] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,171] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,172] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,175] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,175] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,176] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,176] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,177] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,177] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,200] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,201] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,202] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,202] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,203] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,204] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,205] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,205] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,206] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,207] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,207] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,208] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,209] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,210] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,211] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,212] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,213] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,213] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,214] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,214] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,214] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,214] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,215] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,215] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,215] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,216] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,216] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,217] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,218] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,220] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,221] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,222] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,222] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,223] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,225] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,226] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,226] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,226] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,227] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,227] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,228] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,228] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,228] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,229] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,230] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,231] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,231] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,232] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,233] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,234] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,234] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,235] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,235] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,236] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,236] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,236] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,237] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,237] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,238] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,238] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,239] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,240] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,242] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,243] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,243] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,244] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,245] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,245] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,248] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,248] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,249] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,249] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,250] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,250] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,251] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,251] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,252] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,252] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,254] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,254] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,255] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,256] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,256] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,258] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,259] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,259] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=4,Free=4091,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,261] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,262] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,262] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,262] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,263] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,263] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,263] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,264] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,264] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,265] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,268] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,268] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,269] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,269] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,270] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,271] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,271] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,294] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,294] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,295] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,295] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,296] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,296] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,297] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,297] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,298] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,299] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,300] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,301] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,302] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,303] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,304] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,305] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,305] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,306] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,306] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,306] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,307] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,307] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,308] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,308] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,309] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,309] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,311] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,313] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,314] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,314] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,315] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,315] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,315] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,316] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=2,Free=998,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,317] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,319] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,319] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,320] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,320] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,321] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,321] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,322] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,322] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,322] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,323] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,324] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,325] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,325] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,326] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,326] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,327] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,327] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,328] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,328] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,328] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,329] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,329] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,330] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,330] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,330] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,332] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,334] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,334] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,335] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,335] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,336] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,336] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,337] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,339] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,340] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,340] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,340] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,341] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,341] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,341] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,342] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,342] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,342] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,343] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,344] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,345] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,345] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,347] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,347] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,348] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,348] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,348] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,349] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,349] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,349] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,349] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,350] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,350] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,350] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,351] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,352] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,354] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,355] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,356] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,356] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,356] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,357] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,358] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,380] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,380] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,381] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,381] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,381] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,382] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,382] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,383] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,384] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,384] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,386] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,387] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,387] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,388] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,388] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,389] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,389] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,389] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,390] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,390] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,390] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,391] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,391] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,391] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,391] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,393] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,395] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,395] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,395] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,396] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,396] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,397] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,397] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,398] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,420] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,421] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,422] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,422] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,422] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,423] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,423] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,424] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,424] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,425] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,427] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,427] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,428] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,428] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,429] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,429] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=3,Free=4092,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,430] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,430] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,431] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,431] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,431] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,431] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,432] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,432] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,433] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,434] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,437] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,438] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,438] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,440] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,440] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,441] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,444] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,444] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,445] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,445] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,446] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,446] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,447] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,447] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,447] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,448] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,448] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,449] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,450] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,451] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,451] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,452] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,453] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,453] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,454] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,454] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,455] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,455] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,456] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,456] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,457] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,457] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,457] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,459] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,461] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,461] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,462] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,462] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,463] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,463] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,465] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,466] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,466] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,466] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,467] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,468] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,468] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,469] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,469] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,470] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,470] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,470] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,471] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,472] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,472] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,473] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,473] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,473] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,474] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,474] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,474] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,475] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,475] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,475] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,476] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,476] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,476] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,477] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,479] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,480] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,480] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,481] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,481] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,482] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,482] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,484] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,485] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,485] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,485] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,486] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,486] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,486] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,487] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,487] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,487] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,488] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,489] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,489] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,490] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,490] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,491] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,491] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,491] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,492] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,492] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,492] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,493] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,493] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,493] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,494] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,494] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,495] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,497] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,497] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,498] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,498] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,499] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,499] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,500] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,523] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,523] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,523] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,524] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,524] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,525] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,525] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,525] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,526] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,526] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,526] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,527] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,528] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,528] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,529] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,529] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,530] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,530] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,530] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,531] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,531] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,531] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,532] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,532] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,532] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,533] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,534] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,536] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,536] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,537] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,537] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,538] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,538] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,539] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,541] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,541] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,542] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,542] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,542] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,543] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,543] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,543] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,544] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,544] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,544] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,546] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,547] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,548] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,548] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,549] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,549] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,549] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,550] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,550] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,551] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,552] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,552] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,552] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,552] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,552] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,554] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,556] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,556] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,557] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,557] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,558] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,558] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,559] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,561] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,561] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,561] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,562] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,563] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,563] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,563] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,564] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,564] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,565] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,566] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,567] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,567] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,568] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,568] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,569] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,569] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,569] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,570] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,570] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,570] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,571] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,571] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,571] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,572] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,572] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,573] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,575] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,576] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,576] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,576] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,577] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,577] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,578] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,580] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,580] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,580] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,581] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,581] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,582] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,582] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,582] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,583] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,583] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,584] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,585] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,586] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,586] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,587] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,587] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,588] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=3,Free=4092,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,588] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,589] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,589] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,589] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,590] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,590] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,591] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,591] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,592] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,593] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,595] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,595] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,596] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,597] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,598] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,598] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,600] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,601] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,601] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,601] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,602] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,602] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,603] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,604] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,604] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,604] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,605] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,605] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,606] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,606] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,606] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,607] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,607] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,608] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,608] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,608] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,609] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,609] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,609] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,609] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,610] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,610] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,610] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,611] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,614] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,614] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,614] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,615] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,615] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,616] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,616] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,618] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,619] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,619] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,619] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,620] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,620] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,621] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,621] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,621] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,622] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,623] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,623] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,624] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,624] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,626] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,626] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,627] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,627] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,628] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,628] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,628] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,628] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,629] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,629] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,629] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,630] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,631] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,633] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,633] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,634] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,634] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,635] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,635] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,636] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,637] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,638] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,638] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,638] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,639] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,639] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,640] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,640] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,640] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,640] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,641] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,641] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,642] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,642] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,643] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,643] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,644] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,644] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,644] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,645] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,645] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,645] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,646] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,646] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,646] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,647] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,648] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,650] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,651] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,651] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,652] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,652] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,653] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,653] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,655] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,655] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,656] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,656] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,656] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,657] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,657] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,657] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,658] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,658] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,659] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,660] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,660] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,660] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,661] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,661] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,662] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,662] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,662] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,662] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,663] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,663] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,663] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,664] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,664] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,664] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,665] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,667] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,667] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,668] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,668] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,668] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,669] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,669] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=2,Free=998,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,670] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,671] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,672] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,672] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,672] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,673] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,673] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,673] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,674] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,674] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,674] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,675] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,675] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,676] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,676] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,677] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,677] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,677] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,678] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,678] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,678] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,678] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,679] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,679] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,679] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,680] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,681] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,683] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,683] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,683] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,684] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,684] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,685] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,686] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,687] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,687] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,688] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,688] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,688] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,688] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,689] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,689] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,689] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,690] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,690] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,691] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,692] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,692] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,693] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,693] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,694] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,694] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,694] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,694] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,695] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,695] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,695] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,696] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,696] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,696] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,697] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,699] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,699] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,700] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,700] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,701] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,701] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,701] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,703] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,703] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,704] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,704] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,704] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,705] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,705] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,705] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,706] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,706] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,707] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,707] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,707] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,708] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,709] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,709] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,710] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,710] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,710] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,711] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,711] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,711] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,711] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,712] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,712] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,712] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,713] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,715] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,716] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,716] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,716] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,717] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,717] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,719] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,719] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,720] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,720] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,720] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,721] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,721] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,721] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,722] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,722] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,723] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,723] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,724] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,725] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,725] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,726] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,726] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,726] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,727] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,727] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,727] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,727] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,728] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,728] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,728] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,729] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,729] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,730] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,732] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,732] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,732] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,733] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,733] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,733] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,734] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,735] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,736] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,736] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,737] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,737] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,738] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,738] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,738] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,738] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,739] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,739] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,741] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,741] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,741] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,743] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,743] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,744] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,744] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,744] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,745] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,745] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,745] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,746] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,746] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,746] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,746] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,748] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,750] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,750] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,750] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,751] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,751] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,751] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,752] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=2,Free=998,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,753] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,755] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,755] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,755] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,755] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,756] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,756] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,756] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,756] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,757] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,757] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,759] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,759] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,759] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,760] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,760] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,761] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,761] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,761] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,762] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,762] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,762] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,762] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,763] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,763] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,763] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,764] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,766] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,767] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,767] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,767] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,768] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,768] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,769] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,770] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,770] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,771] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,771] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,772] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,772] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,772] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,773] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,773] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,773] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,774] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,775] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,775] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,775] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,776] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,776] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,777] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,777] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,777] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,777] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,778] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,778] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,778] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,778] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,779] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,779] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,780] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,782] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,782] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,783] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,783] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,784] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,784] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,786] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,787] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,787] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,788] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,788] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,789] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,789] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,789] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,789] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,790] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,790] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,790] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,791] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,792] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,792] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,793] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,793] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,793] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,794] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,794] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,794] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,794] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,795] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,795] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,795] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,796] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,796] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,797] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,799] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,799] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,799] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,800] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,800] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,800] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,801] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=2,Free=998,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,802] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,804] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,804] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,804] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,805] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,805] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,805] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,805] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,806] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,806] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,806] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,808] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,808] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,808] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,809] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,809] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,810] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,810] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,810] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,810] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,811] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,811] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,811] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,812] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,812] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,812] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,813] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,815] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,816] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,816] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,816] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,817] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,817] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,819] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,820] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,820] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,820] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,820] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,821] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,821] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,821] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,822] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,822] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,823] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,823] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,824] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,825] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,825] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,826] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,826] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,826] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,827] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,827] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,827] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,827] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,828] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,828] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,828] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,828] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,829] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,830] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,832] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,832] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,832] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,833] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,833] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,834] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,834] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,834] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,837] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,837] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,837] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,837] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,838] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,838] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=2,Free=998,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,839] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,839] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,840] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,840] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,841] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,841] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,842] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,843] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,843] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,843] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,844] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,844] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,844] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,845] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,845] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,845] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,846] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,846] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,846] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,847] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,850] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,850] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,850] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,851] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,851] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,852] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,852] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,854] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,855] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,855] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,856] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,856] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,856] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,856] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,857] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,857] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,857] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,858] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,859] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,859] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,859] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,861] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,861] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,861] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,862] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,862] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,862] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,863] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,863] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,863] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,864] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,864] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,864] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,866] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,868] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,869] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,869] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,870] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,870] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,871] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,871] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,871] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,872] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,872] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,875] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,875] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,875] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,875] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,876] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,876] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,876] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,876] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,877] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,878] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,878] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,879] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,879] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,879] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,880] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,880] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,880] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,881] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,881] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,881] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,881] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,882] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,882] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,883] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,885] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,885] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,886] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,886] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,887] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,887] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,888] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,890] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,890] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,890] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,891] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,891] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,891] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,893] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,893] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,893] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,893] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,894] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,895] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,896] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,896] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,897] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,897] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,898] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,898] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,898] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,898] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,899] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,899] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,899] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,900] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,900] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,900] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,901] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,904] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,904] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,904] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,905] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,905] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,905] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,906] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,906] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,906] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,907] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,907] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,907] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,908] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,910] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,910] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,911] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,911] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,911] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,912] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,913] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,913] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,914] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,914] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,914] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,915] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,915] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,915] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,915] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,916] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,916] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,916] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,916] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,917] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,918] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,920] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,920] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,921] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,921] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,921] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,922] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,922] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,923] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,925] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,925] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,926] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,926] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,926] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,927] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,927] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,927] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,927] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,928] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,929] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,930] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,930] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,931] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,931] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,931] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,932] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,932] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,932] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,932] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,933] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,933] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,933] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,934] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,934] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,935] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,937] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,938] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,938] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,938] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,939] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,939] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,940] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,942] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,942] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,943] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,943] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,943] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,943] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,944] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,944] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,944] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,945] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,945] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,946] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,946] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,947] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,947] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,948] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,948] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,948] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,948] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,949] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,949] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,949] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,950] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,950] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,950] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,950] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,951] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,954] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,954] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,954] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,955] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,955] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,956] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,956] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,957] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,959] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,960] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,960] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,960] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,961] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,961] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,961] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,962] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,962] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,962] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=2,Free=998,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,964] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,964] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,965] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,965] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,966] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,966] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,966] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,967] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,967] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,967] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,967] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,967] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,968] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,968] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,968] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,969] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,972] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,972] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,973] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,973] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,973] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,974] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,974] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,977] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,977] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,977] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,978] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,978] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,978] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,979] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,979] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,979] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,979] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,980] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,981] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:07,982] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:07,982] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:07,983] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:07,983] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:07,984] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,984] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:07,984] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:07,985] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:07,985] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,985] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:07,985] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:07,986] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:07,986] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:07,986] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:07,988] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:07,990] wolflogInfo 
+
+
+
+[2017-02-06 11:32:07,991] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:07,991] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,992] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:07,992] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:07,992] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:07,993] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,995] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,996] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:07,996] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:07,996] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:07,997] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:07,997] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:07,997] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:07,998] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:07,998] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:07,999] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:07,999] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,001] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:08,001] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:08,001] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:08,002] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:08,002] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:08,003] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,003] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:08,003] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:08,004] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:08,004] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,004] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:08,004] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:08,005] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:08,005] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:08,005] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:08,006] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:08,009] wolflogInfo 
+
+
+
+[2017-02-06 11:32:08,009] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:08,009] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,010] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:08,010] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:08,011] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:08,011] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,014] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,014] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,014] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:08,015] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:08,015] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:08,015] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:08,015] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,016] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:08,016] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:08,016] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:08,017] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,018] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:08,018] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:08,019] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:08,019] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:08,020] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:08,020] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,021] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:08,021] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:08,021] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:08,021] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,022] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:08,022] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:08,022] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:08,023] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:08,023] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:08,024] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:08,026] wolflogInfo 
+
+
+
+[2017-02-06 11:32:08,027] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:08,027] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,027] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:08,028] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:08,028] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:08,031] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,031] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,032] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:08,032] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:08,032] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:08,032] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:08,033] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,033] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:08,034] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:08,034] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:08,034] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,035] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:08,035] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:08,035] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:08,036] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,036] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:08,037] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:08,037] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,037] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:08,038] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:08,038] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:08,038] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,038] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:08,039] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:08,039] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:08,039] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:08,039] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:08,040] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:08,043] wolflogInfo 
+
+
+
+[2017-02-06 11:32:08,044] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:08,044] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,045] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:08,045] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:08,045] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:08,046] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,048] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,049] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,049] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:08,050] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:08,050] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:08,050] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:08,050] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,051] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:08,051] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:08,051] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:08,052] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,053] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:08,053] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:08,053] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:08,054] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:08,054] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:08,055] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,055] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:08,055] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:08,056] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:08,056] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,056] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:08,057] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:08,057] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:08,057] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:08,057] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:08,059] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:08,061] wolflogInfo 
+
+
+
+[2017-02-06 11:32:08,062] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:08,062] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,063] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:08,063] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:08,064] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:08,065] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,067] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,068] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:08,068] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:08,068] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:08,068] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:08,069] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,070] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,070] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:08,071] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:08,071] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:08,071] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,072] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:08,073] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:08,073] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:08,074] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:08,074] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:08,074] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,075] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:08,075] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:08,075] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:08,076] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,076] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:08,076] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:08,076] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:08,077] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:08,077] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:08,078] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:08,081] wolflogInfo 
+
+
+
+[2017-02-06 11:32:08,081] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:08,082] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,083] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:08,083] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:08,083] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:08,084] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,087] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,088] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,088] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:08,089] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:08,089] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:08,089] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:08,090] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,090] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:08,090] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:08,091] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:08,091] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,092] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:08,092] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:08,093] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:08,093] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:08,094] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:08,094] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,095] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:08,095] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:08,095] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:08,096] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,096] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:08,097] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:08,097] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:08,097] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:08,097] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:08,098] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:08,101] wolflogInfo 
+
+
+
+[2017-02-06 11:32:08,102] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:08,102] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,102] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:08,103] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:08,103] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:08,104] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,106] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,107] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,107] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:08,107] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:08,108] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:08,108] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:08,109] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,109] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:08,109] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:08,109] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:08,110] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,111] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:08,111] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:08,112] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:08,112] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:08,113] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:08,113] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,113] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:08,114] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:08,114] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:08,114] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,115] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:08,115] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:08,115] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:08,116] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:08,116] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:08,117] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:08,119] wolflogInfo 
+
+
+
+[2017-02-06 11:32:08,120] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:08,120] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,121] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:08,121] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:08,121] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:08,122] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,205] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,206] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,206] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:08,206] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:08,207] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:08,208] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:08,208] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,208] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:08,209] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:08,209] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:08,210] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,212] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:08,213] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:08,213] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:08,215] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:08,215] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:08,216] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,217] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:08,217] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:08,217] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:08,218] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,218] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:08,218] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:08,218] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:08,219] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:08,219] wolflogInfo 
+Starting heartbeat...
+
+
+[2017-02-06 11:32:08,221] wolflogInfo 
+192.168.10.134:6379,keepAlive=180,syncTimeout=5000,allowAdmin=True,connectTimeout=5000,password=111111,abortConnect=False,connectRetry=10
+
+
+[2017-02-06 11:32:08,222] wolflogInfo 
+
+
+
+[2017-02-06 11:32:08,227] wolflogInfo 
+Connecting 192.168.10.134:6379/Interactive...
+
+
+[2017-02-06 11:32:08,228] wolflogInfo 
+BeginConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,229] wolflogInfo 
+1 unique nodes specified
+
+
+[2017-02-06 11:32:08,229] wolflogInfo 
+Requesting tie-break from 192.168.10.134:6379 > __Booksleeve_TieBreak...
+
+
+[2017-02-06 11:32:08,229] wolflogInfo 
+EndConnect: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,230] wolflogInfo 
+Allowing endpoints 00:00:05 to respond...
+
+
+[2017-02-06 11:32:08,231] wolflogInfo 
+Awaiting task completion, IOCP: (Busy=1,Free=999,Min=8,Max=1000), WORKER: (Busy=1,Free=4094,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,236] wolflogInfo 
+Connected Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,237] wolflogInfo 
+Server handshake
+
+
+[2017-02-06 11:32:08,238] wolflogInfo 
+Authenticating (password)
+
+
+[2017-02-06 11:32:08,239] wolflogInfo 
+Setting client name: GZPC0115
+
+
+[2017-02-06 11:32:08,239] wolflogInfo 
+Auto-configure...
+
+
+[2017-02-06 11:32:08,240] wolflogInfo 
+Sending critical tracer: Interactive/192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,240] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: ECHO
+
+
+[2017-02-06 11:32:08,240] wolflogInfo 
+Flushing outbound buffer
+
+
+[2017-02-06 11:32:08,241] wolflogInfo 
+Starting poll
+
+
+[2017-02-06 11:32:08,241] wolflogInfo 
+Connect complete: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,243] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / ECHO: BulkString: 16 bytes
+
+
+[2017-02-06 11:32:08,243] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: GET __Booksleeve_TieBreak
+
+
+[2017-02-06 11:32:08,243] wolflogInfo 
+Writing to Interactive/192.168.10.134:6379: PING
+
+
+[2017-02-06 11:32:08,244] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / GET __Booksleeve_TieBreak: (null)
+
+
+[2017-02-06 11:32:08,245] wolflogInfo 
+Response from Interactive/192.168.10.134:6379 / PING: SimpleString: PONG
+
+
+[2017-02-06 11:32:08,245] wolflogInfo 
+All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=8,Max=1000), WORKER: (Busy=2,Free=4093,Min=8,Max=4095)
+
+
+[2017-02-06 11:32:08,245] wolflogInfo 
+192.168.10.134:6379 returned with success
+
+
+[2017-02-06 11:32:08,246] wolflogInfo 
+All tasks are already complete
+
+
+[2017-02-06 11:32:08,246] wolflogInfo 
+192.168.10.134:6379 had no tiebreaker set
+
+
+[2017-02-06 11:32:08,246] wolflogInfo 
+Single master detected: 192.168.10.134:6379
+
+
+[2017-02-06 11:32:08,247] wolflogInfo 
+192.168.10.134:6379: Standalone v3.2.3, master; 16 databases; keep-alive: 00:03:00; int: ConnectedEstablished; sub: ConnectedEstablished, 1 active
+
+
+[2017-02-06 11:32:08,247] wolflogInfo 
+192.168.10.134:6379: int ops=12, qu=0, qs=0, qc=1, wr=0, sync=10, socks=1; sub ops=4, qu=0, qs=0, qc=0, wr=0, subs=1, sync=4, socks=1
+
+
+[2017-02-06 11:32:08,248] wolflogInfo 
+Circular op-count snapshot; int: 0+12=12 (1.20 ops/s; spans 10s); sub: 0+4=4 (0.40 ops/s; spans 10s)
+
+
+[2017-02-06 11:32:08,248] wolflogInfo 
+Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+
+
+[2017-02-06 11:32:08,248] wolflogInfo 
+Starting heartbeat...
+

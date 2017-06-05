@@ -1,0 +1,13 @@
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\bin\Debug\SuiBao_v1.Utility.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\bin\Debug\SuiBao_v1.Utility.pdb
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\bin\Debug\log4net.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\bin\Debug\log4net.xml
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\obj\Debug\SuiBao_v1.Utility.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\obj\Debug\SuiBao_v1.Utility.pdb
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\bin\Debug\EntityFramework.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\bin\Debug\EntityFramework.SqlServer.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\bin\Debug\EntityFramework.xml
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\bin\Debug\EntityFramework.SqlServer.xml
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\obj\Debug\SuiBao_v1.Utility.csprojResolveAssemblyReference.cache
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Utility\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll

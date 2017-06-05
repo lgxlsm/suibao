@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SuiBao_v1.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:SuiBao_v1.WebApi.App_Start.NinjectRegister.RegisterForWebApi(System.Web.Http.HttpConfiguration)">
+            <summary>
+            WebApi项目的注册
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="M:SuiBao_v1.WebApi.App_Start.SwaggerCachingProvider.GetControllerDesc">
+            <summary>
+            从API文档中读取控制器描述
+            </summary>
+            <returns>所有控制器描述</returns>
+        </member>
+        <member name="T:SuiBao_v1.WebApi.Controllers.BaseController">
+            <summary>
+            api基类
+            </summary>
+        </member>
+        <member name="M:SuiBao_v1.WebApi.Controllers.BaseController.ApiResponse(SuiBao_v1.Model.ReturnMessage,System.Net.Http.Headers.CookieHeaderValue[])">
+            <summary>
+            接口统一的返回消息
+            </summary>
+            <param name="result">返回内容</param>
+            <param name="cookies">cookie</param>
+            <returns></returns>
+        </member>
+        <member name="P:SuiBao_v1.WebApi.Controllers.BaseController.CurrentUserToken">
+            <summary>
+            当前请求会员的身份token
+            </summary>
+        </member>
+        <member name="P:SuiBao_v1.WebApi.Controllers.BaseController.CurrentUserId">
+            <summary>
+            当前请求的会员id
+            </summary>
+        </member>
+        <member name="P:SuiBao_v1.WebApi.Controllers.BaseController.CurrentUserInfo">
+            <summary>
+            当前请求的用户信息
+            </summary>
+        </member>
+        <member name="T:SuiBao_v1.WebApi.Controllers.PeopleController">
+            <summary>
+            做个例子
+            </summary>
+        </member>
+        <member name="M:SuiBao_v1.WebApi.Controllers.PeopleController.Login">
+            <summary>
+            模拟登录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SuiBao_v1.WebApi.Controllers.PeopleController.LoginOut">
+            <summary>
+            注销登陆
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SuiBao_v1.WebApi.Controllers.PeopleController.Test(System.String)">
+            <summary>
+            测试操作数据库-插入数据
+            </summary>
+            <param name="agrs">随便给个参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:SuiBao_v1.WebApi.Controllers.PeopleController.Test(System.Int32)">
+            <summary>
+            测试操作数据库-查询数据库
+            </summary>
+            <param name="agrs">随便给个参数</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

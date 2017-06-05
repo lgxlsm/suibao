@@ -1,0 +1,12 @@
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Model\bin\Debug\SuiBao_v1.Model.dll.config
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Model\bin\Debug\SuiBao_v1.Model.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Model\bin\Debug\SuiBao_v1.Model.pdb
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Model\bin\Debug\EntityFramework.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Model\bin\Debug\EntityFramework.xml
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Model\obj\Debug\SuiBao_v1.Model.csprojResolveAssemblyReference.cache
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Model\obj\Debug\SuiBao_v1.Model.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Model\obj\Debug\SuiBao_v1.Model.pdb
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll

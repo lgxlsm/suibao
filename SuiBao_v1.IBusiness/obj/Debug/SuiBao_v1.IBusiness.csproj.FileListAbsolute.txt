@@ -1,0 +1,10 @@
+D:\pjTEST\SuiBao_v1\SuiBao_v1.IBusiness\bin\Debug\SuiBao_v1.IBusiness.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.IBusiness\bin\Debug\SuiBao_v1.IBusiness.pdb
+D:\pjTEST\SuiBao_v1\SuiBao_v1.IBusiness\obj\Debug\SuiBao_v1.IBusiness.csprojResolveAssemblyReference.cache
+D:\pjTEST\SuiBao_v1\SuiBao_v1.IBusiness\obj\Debug\SuiBao_v1.IBusiness.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.IBusiness\obj\Debug\SuiBao_v1.IBusiness.pdb
+D:\pjTEST\SuiBao_v1\SuiBao_v1.IBusiness\bin\Debug\SuiBao_v1.Model.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.IBusiness\bin\Debug\EntityFramework.dll
+D:\pjTEST\SuiBao_v1\SuiBao_v1.IBusiness\bin\Debug\SuiBao_v1.Model.pdb
+D:\pjTEST\SuiBao_v1\SuiBao_v1.IBusiness\bin\Debug\EntityFramework.xml
+D:\pjTEST\SuiBao_v1\SuiBao_v1.IBusiness\bin\Debug\zh-Hans\EntityFramework.resources.dll
